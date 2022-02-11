@@ -4,8 +4,8 @@ html {
 
 body {
     font-family: "Work Sans", sans-serif;
-    background-color: #9AD0EC;
-    color: #1a3a69;
+    background-color: #5e17eb;
+    color: #FFFFFF;
     font-weight: 500;
     font-size: 1.2em;
     text-align: center;
@@ -234,7 +234,7 @@ h3 {
 }
 
 .hint {
-    color: rgb(49, 86, 143);
+    color: rgb(220, 220, 220);
     font-size: 0.9em !important;
 }
 
@@ -281,7 +281,7 @@ h3 {
 }
 
 .schedule {
-    background-color: #ffffff;
+    background-color: #3F109B;
     padding-top: 20px;
     padding-left: 30px;
     padding-right: 30px;
