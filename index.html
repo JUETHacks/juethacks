@@ -151,38 +151,8 @@ var x = setInterval(function() {
                     
                     
                     <! -- Registration Ends in!! -- >
-                    <p><strong>Registration Ends in:</strong></p>
-                    <p id="demo"></p>
-                    <script>
-// Set the date we're counting down to
-var countDownDate = new Date("Feb 19, 2022 15:00:00").getTime();
-
-// Update the count down every 1 second
-var x = setInterval(function() {
-
-  // Get today's date and time
-  var now = new Date().getTime();
-
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
-
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-  // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
-
-  // If the count down is finished, write some text
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
-  }
-}, 1000);
-</script>
+                    <p><strong>Registration Ends :</strong></p>
+                    <p>Today, 14:00:00 hrs.</p>
                    <!-- <p class="jumbo-wrap">Join us for experiencing what developing and winning feels like at Jaypee University of Engineering and Technology’s organic 24-hour Physical First Hybrid Hackathon!</p> -->  <br>
                  <br>
                     <p>
@@ -277,24 +247,40 @@ var x = setInterval(function() {
               </thead>
               <tbody>
                 <tr>
-                  <th scope="row">15:00-16:00</th>
+                  <th scope="row">14:00-14:40</th>
+                  <td>Accomodation</td>
+                </tr>
+                <tr>
+                  <th scope="row">14:40</th>
                   <td>Introductory Session</td>
                 </tr>
                 <tr>
-                  <th scope="row">16:00-16:30</th>
-                  <td>Team Building and Hacking Begins</td>
+                  <th scope="row">15:40</th>
+                  <td>Kahoot Quiz</td>
                 </tr>
                 <tr>
-                  <th scope="row">17:00-18:00</th>
-                  <td>Workshop on Introducion to Android</td>
-                </tr>
-                <tr>
-                  <th scope="row">18:00-18:30</th>
-                  <td>Refreshing Games</td>
+                  <th scope="row"></th>
+                  <td>Hacking Begins</td>
                 </tr>
                 <tr>
                   <th scope="row">18:30-19:30</th>
-                  <td>Introduction to Battle Snake</td>
+                  <td>Full Stack Development using Nodejs</td>
+                </tr>
+                <tr>
+                  <th scope="row">16:45-</th>
+                  <td>Lofi, Chill and Refreshments</td>
+                </tr>
+                <tr>
+                  <th scope="row">17:00-18:00</th>
+                  <td>Android Workshop</td>
+                </tr>
+                <tr>
+                  <th scope="row">18:00-18:30</th>
+                  <td>Blockchain Workshop</td>
+                </tr>
+                <tr>
+                  <th scope="row">18:30-</th>
+                  <td></td>
                 </tr>
               <!--  <tr>
                   <th scope="row">12:00PM-7:00PM</th>
