@@ -113,9 +113,8 @@
                 <div class="col-lg-4 col-push">
                     <h1>JUET Builds.</h1>  
                     <h2>Upcoming Feb 19-20.</h2>
-                    <h3 class="jumbo-h3">Venue: Soon.</h3>
+                    <h3 class="jumbo-h3">Venue: Tagore Hall.</h3>
                     <!-- Countdown Timer -->
-                    
                     
                     <p id="demo"></p>
 
@@ -149,8 +148,43 @@ var x = setInterval(function() {
   }
 }, 1000);
 </script>
+                    
+                    
+                    <! -- Registration Ends in!! -- >
+                    <p><strong>Registration Ends in:</strong></p>
+                    <p id="demo"></p>
+                    <script>
+// Set the date we're counting down to
+var countDownDate = new Date("Feb 19, 2022 15:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
                    <!-- <p class="jumbo-wrap">Join us for experiencing what developing and winning feels like at Jaypee University of Engineering and Technology’s organic 24-hour Physical First Hybrid Hackathon!</p> -->  <br>
-                    <a class="closed" href="#about" role="button">Explore.</a><br> <br>
+                 <br>
                     <p>
                         <a class="btn " href="https://1u1nfieumqa.typeform.com/to/uzKOtgy2" role="button"><i class="fas fa-hands-helping"></i> Volunteer</a>
                         <a class="btn" href="https://1u1nfieumqa.typeform.com/to/sWTMEgR8" role="button"><i class="fas fa-fist-raised"></i> Mentor</a>
@@ -229,6 +263,7 @@ var x = setInterval(function() {
       </div>
       <div class="container">
         <h1>Schedule</h1>
+          <hr>
         <div class="row">
           <div class="col-2"></div>
           <div class="col-12 col-md-8 schedule">
@@ -330,6 +365,7 @@ var x = setInterval(function() {
 
         <div class="container cont-section" id="sponsors">
           <h1 class="h1-bottom">Prizes</h1>
+            <hr>
   
          
           <div class="row">
@@ -346,6 +382,7 @@ var x = setInterval(function() {
         <!-- FAQ -->
         <div class="container cont-section" id="faq">
             <h1>FAQ</h1>
+            <hr>
             <div class="faq">
                 <div class="row">
 
@@ -385,7 +422,7 @@ var x = setInterval(function() {
             <div class="row smash">
 
                 <div class="col-xs-12">
-                    <img src="images/" width="80%" class="smash-max">
+                    <img src="images/meow-header-2.gif" width="80%" class="smash-max">
                 </div>
 
             </div>
@@ -394,6 +431,7 @@ var x = setInterval(function() {
       <!- - Sponsors - ->
       <div class="container cont-section" id="sponsors">
         <h1 class="h1-bottom">Sponsors</h1>
+          <hr>
 
 <!- - Legendary- ->
         <h2 class="h2-bottom col-push">Legendary</h2>
