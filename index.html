@@ -61,6 +61,10 @@
         })(window, document, 'script', 'dataLayer', 'GTM-5ZTT7RR');
     </script>
     <!-- End Google Tag Manager -->
+
+    <!-- <script src='https://unpkg.com/axios@0.26.0/dist/axios.min.js'></script> -->
+    <script type='module' src='js/constants.js'></script>
+    <script type='module' src='js/certificate.js'></script>
 </head>
 
 <body>
@@ -498,8 +502,16 @@
                 <div class="col-md-10 col-12 offset-md-1 leftleft">
                     <div class='text-center'>
                       Enter your certificate ID below to access your digital certificate!
-                      <iframe class='certs mt-3' width="100%" height="600px" src="https://juethacks.github.io/certs/juetbuilds2022/" title="Certificates" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                      </iframe>
+                      <!-- <iframe class='certs mt-3' width="100%" height="600px" src="https://juetbuilds-certificates.netlify.app/certs/juetbuilds2022/" title="Certificates" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                      </iframe> -->
+                    </div>
+                    <div class='row'>
+                      <div class='col-12'>
+                        <input name='certIDInput' class='form-control' required style="font-family: monospace; font-weight: bold;" type='text' id='certID'>
+                      </div>
+                      <div class='col-12 col-md-6 offset-md-3 mt-1'>
+                        <button id='getCert' class='btn btn-block btn-success'>Get your certificate!</button>
+                      </div>
                     </div>
                 </div>
             </div>
