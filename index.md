@@ -1,10 +1,10 @@
 ## Welcome to JUET Hacks
 
 ### Choose your desination
-
-[JUET Builds](https://the-rebooted-coder.github.io/JUET-Builds/).
-<br>
 [Jaypee Hacks](https://www.jaypee-hacks.live).
+<br>
+[JUET Builds](https://the-rebooted-coder.github.io/JUET-Builds/).
+
 
 ### Support or Contact
 
